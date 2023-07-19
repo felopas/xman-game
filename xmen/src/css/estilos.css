@@ -1,0 +1,25 @@
+body {
+    font-family: "Oxanium", cursive;
+    background-color: #000000;
+    color: #ffffff;
+
+}
+
+.cabecalho {
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+}
+
+.selecao-de-personagens {
+    background-color: #610d5d;
+    display: flex;
+
+}
+
+.selecao-de-personagens .lista-de-personagens {
+    display: flex;
+    background-color: azure;
+    flex-wrap: wrap;
+    gap: 30px;
+}
